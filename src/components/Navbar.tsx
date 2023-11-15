@@ -33,14 +33,14 @@ const Navbar = () => {
                                 size: 'sm',
                             })}>
                                 Sign in
-                            </LoginLink> {/** <-- Look at later  */}
+                            </LoginLink> 
                             
                             <RegisterLink
                             className={buttonVariants({
                                 size: 'sm',
                             })}>
-                                Get started
-                            </RegisterLink> <ArrowRight className='ml-1.5 h-5 w-5' /> {/** <-- Look at later  */}
+                                Get started <ArrowRight className='ml-1.5 h-5 w-5' /> 
+                            </RegisterLink> 
 
                             
                         </>
